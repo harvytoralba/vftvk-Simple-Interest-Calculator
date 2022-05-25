@@ -14,19 +14,63 @@ h1{
     padding: 20px;
     border-radius: 25px;
     margin: auto;
+}
+.maindiv-header{
+    margin-bottom: 12px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.maindiv-body{    
     display: flex;
     flex-direction: column;
 }
-/* .label-field, .input-field{
-    width: 30%;
+.maindiv-footer{
+    padding: 7px 0px 7px 0px;
+}
+button{
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+#result{
+    margin: 12px 0px 12px 0px;
+}
+.input-field{
+    width: 100%;
     display: flex;
     flex-direction: row;
-} */
+    padding: 5px;
+    align-items: center;
+}
+.label{
+    width: 25%;
+}
+.input{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input{
+    width: 70%;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+select{
+    width: 75%;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
 .highlight{
     background-color: yellow;
 }
 footer{
     width: 500px;
     margin: auto;
+    text-align: center;
 }
 
