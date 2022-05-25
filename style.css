@@ -10,16 +10,23 @@ h1{
 .maindiv{
     background-color: white;
     color: black;
-    width: 300px;
+    width: 500px;
     padding: 20px;
     border-radius: 25px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
+/* .label-field, .input-field{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+} */
 .highlight{
     background-color: yellow;
 }
 footer{
-    width: 300px;
+    width: 500px;
     margin: auto;
 }
 
