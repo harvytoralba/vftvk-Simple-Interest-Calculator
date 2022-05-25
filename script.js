@@ -13,6 +13,7 @@ function compute()
         document.getElementById("result").innerHTML = display;
     }else{
         alert("Enter a positive number");
+        document.getElementById("principal").value = '';
         document.getElementById("principal").focus();
     }
     
